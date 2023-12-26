@@ -1,4 +1,4 @@
-package entities.wordInfo;
+package entities;
 
 import jakarta.persistence.*;
 
