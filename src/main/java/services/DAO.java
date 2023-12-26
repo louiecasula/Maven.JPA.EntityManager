@@ -1,10 +1,10 @@
-package entities;
+package services;
 import java.util.List;
 
 public interface DAO<T> {
-    T findById(int id);
+    T findById(Long id);
     List<T> findAll();
     T create(T t);
     T update(T t);
-    void delete(int id);
+    void delete(Long id);
 }
